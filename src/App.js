@@ -1,5 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import TagManager from "react-gtm-module";
+
+const tagManagerArgs = {
+  gtmId: "GTM-WWBB26M",
+};
+TagManager.initialize(tagManagerArgs);
 
 function App() {
   return (
